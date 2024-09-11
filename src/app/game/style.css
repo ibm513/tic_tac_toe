@@ -1,0 +1,114 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+* {
+    @apply box-border
+  }
+  
+  body {
+    @apply font-sans
+    m-5
+    p-0
+  }
+  
+  h1 {
+   @apply mt-0
+   text-2xl
+  }
+  
+  h2 {
+    @apply mt-0
+    text-xl
+  }
+  
+  h3 {
+    @apply mt-0
+   text-lg
+  }
+  
+  h4 {
+    @apply mt-0
+   text-base
+  }
+  
+  h5 {
+    @apply mt-0
+   text-sm
+  }
+  
+  h6 {
+    @apply mt-0
+   text-xs
+  }
+  
+  code {
+    @apply
+    text-xl
+  }
+  
+  ul {
+    @apply ps-5
+  }
+  
+  * {
+    @apply box-border
+  }
+  
+  body {
+    @apply font-sans
+    m-5
+    p-0
+  }
+  
+  .square {
+    
+  @apply bg-white
+          border-1
+          border-solid
+          border-gray-400
+          float-left
+          text-8xl
+          font-bold
+      
+          h-48
+          -mr-1
+          -mt-1
+          p-0
+          text-center
+         w-48
+         outline
+         ring-4
+
+}
+  
+  .board-row {
+    @apply /*  clear-both */
+    /* after:content-none */
+    table
+    
+  }
+  
+  .status {
+   @apply mb-36
+  }
+  .game {
+   @apply flex
+   flex-row
+   justify-center
+   
+   
+
+  }
+  
+  .game-info {
+    @apply ml-36
+    mt-44
+    bg-
+  }
+  
